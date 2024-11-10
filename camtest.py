@@ -1,0 +1,1 @@
+# ~/Documents/picamera2-manual.pdf
