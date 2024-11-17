@@ -1,4 +1,5 @@
-# https://sourceforge.net/p/raspberry-gpio-python/wiki/Home/
+# https://gpiozero.readthedocs.io/en/latest/
+# Don't use RPi.GPIO
 
 from gpiozero import Button
 import time
@@ -30,4 +31,5 @@ while True:
     if press_gap < SUCCESS_TIME:
         break
 
-# this is not a good way to do it. It sucks
+# this is not a good way to do it. 
+# Callbacks is probably a better way to do it
